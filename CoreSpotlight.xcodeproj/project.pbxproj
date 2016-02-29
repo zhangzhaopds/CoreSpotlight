@@ -15,6 +15,13 @@
 		E25BFC211C83E27500B22218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25BFC1F1C83E27500B22218 /* LaunchScreen.storyboard */; };
 		E25BFC2C1C83E27500B22218 /* CoreSpotlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25BFC2B1C83E27500B22218 /* CoreSpotlightTests.m */; };
 		E25BFC371C83E27500B22218 /* CoreSpotlightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25BFC361C83E27500B22218 /* CoreSpotlightUITests.m */; };
+		E25BFC451C83E41C00B22218 /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = E25BFC441C83E41C00B22218 /* Books.plist */; };
+		E25BFC471C83E6D700B22218 /* wonaodai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25BFC461C83E6D700B22218 /* wonaodai.jpg */; };
+		E25BFC4A1C83E6E000B22218 /* diaoyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25BFC481C83E6E000B22218 /* diaoyu.jpg */; };
+		E25BFC4B1C83E6E000B22218 /* feizhou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25BFC491C83E6E000B22218 /* feizhou.jpg */; };
+		E25BFC4E1C83E8F500B22218 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25BFC4D1C83E8F500B22218 /* CustomCell.m */; };
+		E25BFC561C83EEAA00B22218 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25BFC551C83EEAA00B22218 /* CoreSpotlight.framework */; };
+		E25BFC581C83EEBC00B22218 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25BFC571C83EEBC00B22218 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		E25BFC321C83E27500B22218 /* CoreSpotlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSpotlightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25BFC361C83E27500B22218 /* CoreSpotlightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreSpotlightUITests.m; sourceTree = "<group>"; };
 		E25BFC381C83E27500B22218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25BFC441C83E41C00B22218 /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+		E25BFC461C83E6D700B22218 /* wonaodai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wonaodai.jpg; sourceTree = "<group>"; };
+		E25BFC481C83E6E000B22218 /* diaoyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diaoyu.jpg; sourceTree = "<group>"; };
+		E25BFC491C83E6E000B22218 /* feizhou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feizhou.jpg; sourceTree = "<group>"; };
+		E25BFC4C1C83E8F500B22218 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		E25BFC4D1C83E8F500B22218 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		E25BFC551C83EEAA00B22218 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		E25BFC571C83EEBC00B22218 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25BFC581C83EEBC00B22218 /* MobileCoreServices.framework in Frameworks */,
+				E25BFC561C83EEAA00B22218 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 		E25BFC051C83E27500B22218 = {
 			isa = PBXGroup;
 			children = (
+				E25BFC571C83EEBC00B22218 /* MobileCoreServices.framework */,
+				E25BFC551C83EEAA00B22218 /* CoreSpotlight.framework */,
 				E25BFC101C83E27500B22218 /* CoreSpotlight */,
 				E25BFC2A1C83E27500B22218 /* CoreSpotlightTests */,
 				E25BFC351C83E27500B22218 /* CoreSpotlightUITests */,
@@ -105,10 +124,16 @@
 				E25BFC151C83E27500B22218 /* AppDelegate.m */,
 				E25BFC171C83E27500B22218 /* ViewController.h */,
 				E25BFC181C83E27500B22218 /* ViewController.m */,
+				E25BFC4C1C83E8F500B22218 /* CustomCell.h */,
+				E25BFC4D1C83E8F500B22218 /* CustomCell.m */,
+				E25BFC441C83E41C00B22218 /* Books.plist */,
 				E25BFC1A1C83E27500B22218 /* Main.storyboard */,
 				E25BFC1D1C83E27500B22218 /* Assets.xcassets */,
 				E25BFC1F1C83E27500B22218 /* LaunchScreen.storyboard */,
 				E25BFC221C83E27500B22218 /* Info.plist */,
+				E25BFC461C83E6D700B22218 /* wonaodai.jpg */,
+				E25BFC481C83E6E000B22218 /* diaoyu.jpg */,
+				E25BFC491C83E6E000B22218 /* feizhou.jpg */,
 				E25BFC111C83E27500B22218 /* Supporting Files */,
 			);
 			path = CoreSpotlight;
@@ -246,9 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25BFC4B1C83E6E000B22218 /* feizhou.jpg in Resources */,
 				E25BFC211C83E27500B22218 /* LaunchScreen.storyboard in Resources */,
 				E25BFC1E1C83E27500B22218 /* Assets.xcassets in Resources */,
 				E25BFC1C1C83E27500B22218 /* Main.storyboard in Resources */,
+				E25BFC471C83E6D700B22218 /* wonaodai.jpg in Resources */,
+				E25BFC4A1C83E6E000B22218 /* diaoyu.jpg in Resources */,
+				E25BFC451C83E41C00B22218 /* Books.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +304,7 @@
 			files = (
 				E25BFC191C83E27500B22218 /* ViewController.m in Sources */,
 				E25BFC161C83E27500B22218 /* AppDelegate.m in Sources */,
+				E25BFC4E1C83E8F500B22218 /* CustomCell.m in Sources */,
 				E25BFC131C83E27500B22218 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
